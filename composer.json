@@ -1,0 +1,18 @@
+{
+    "name": "chunghsien/laravel-lib",
+    "description": "自己專案的架構使用於laravel的延伸應用",
+    "type": "library",
+    "homepage": "https://github.com/chunghsien/laravel-lib",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chopin\\": "src/"
+        },
+        "files": [
+            "src/Support/helpers.php",
+            "options/autoload.php"
+        ]
+    }
+}
