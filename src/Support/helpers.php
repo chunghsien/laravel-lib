@@ -17,6 +17,12 @@ if (! function_exists('validLang')) {
         return $lang;
     }
 }
+if (! function_exists('getArrayResources')) {
+    function getArrayResources($path)
+    {
+        return require_once $path;
+    }
+}
 
 if (! function_exists('tryCatchTransToLog')) {
 

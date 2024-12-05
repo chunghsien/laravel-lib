@@ -1,18 +1,30 @@
 {
-    "name": "chunghsien/laravel-lib",
-    "description": "自己專案的架構使用於laravel的延伸應用",
-    "type": "library",
-    "homepage": "https://github.com/chunghsien/laravel-lib",
-    "require": {
-        "php": "^8.2"
+  "name": "chunghsien/laravel-lib",
+  "description": "自己專案的架構使用於laravel的延伸應用",
+  "type": "library",
+  "homepage": "https://github.com/chunghsien/laravel-lib",
+  "require": {
+    "php": "^8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Chopin\\": "src/"
     },
-    "autoload": {
-        "psr-4": {
-            "Chopin\\": "src/"
-        },
-        "files": [
-            "src/Support/helpers.php",
-            "options/autoload.php"
-        ]
-    }
+    "files": [
+      "src/Support/helpers.php",
+      "options/autoload.php"
+    ]
+  },
+  "require-dev": {
+    "php": "^8.2",
+    "laravel/framework": "^11.31",
+    "laravel/tinker": "^2.9",
+    "laminas/laminas-navigation": "^2.20",
+    "laravel-lang/common": "^6.4",
+    "laravel/sanctum": "^4.0",
+    "livewire/livewire": "^3.5",
+    "phpoffice/phpspreadsheet": "^3.5",
+    "sokil/php-isocodes-db-only": "^4.0",
+    "tymon/jwt-auth": "^2.1"
+  }
 }
