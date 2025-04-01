@@ -26,6 +26,8 @@ if (! function_exists('getArrayResources')) {
     }
 }
 
+
+
 if (! function_exists('thumbnail')) {
     /**
      * @param string $originailPath
