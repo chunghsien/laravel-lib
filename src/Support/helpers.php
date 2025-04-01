@@ -4,7 +4,8 @@ declare(strict_types=1);
 
 use Illuminate\Support\Facades\Log;
 use LaravelLang\NativeLocaleNames\LocaleNames;
-use Intervention\Image\ImageManagerStatic as Image;
+use Intervention\Image\ImageManager;
+use Intervention\Image\Drivers\Gd\Driver;
 
 if (! function_exists('validLang')) {
     function validLang(string $lang, $ifFailThenDefault = false)
