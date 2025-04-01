@@ -25,6 +25,7 @@
     "livewire/livewire": "^3.5",
     "phpoffice/phpspreadsheet": "^3.5",
     "sokil/php-isocodes-db-only": "^4.0",
-    "tymon/jwt-auth": "^2.1"
+    "tymon/jwt-auth": "^2.1",
+    "intervention/image": "^3.11"
   }
 }
